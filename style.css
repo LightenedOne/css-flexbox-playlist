@@ -1,15 +1,37 @@
-*{
+* {
     font-family: verdana;
     margin: 0;
 }
 
-body{
+body {
     background: #eee;
+    width: 100vw;
+    height: 100vh;
 }
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+}
+
+.one {
+    background: red;
+}
+
+.two {
+    background: blue;
+}
+
+.three {
+    background: green;
+}
